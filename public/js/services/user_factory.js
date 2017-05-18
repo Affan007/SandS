@@ -11,13 +11,13 @@ angular.module('sands')
 		return {
 
 		FetchComments : function(UserData){
-			return $http.get("http://jsonplaceholder.typicode.com/comments"+"?_start="+UserData.start+"&_limit="+UserData.end, {
+			return $http.get("https://jsonplaceholder.typicode.com/comments"+"?_start="+UserData.start+"&_limit="+UserData.end, {
 			}).success(function(data, status, headers, config){
 			});
 		},
 
 		FetchTotal : function(a,b){
-			return $http.get("http://jsonplaceholder.typicode.com/comments"+"?_start="+a+"&_limit="+b, {
+			return $http.get("https://jsonplaceholder.typicode.com/comments"+"?_start="+a+"&_limit="+b, {
 			}).success(function(data, status, headers, config){
 			});
 		},
