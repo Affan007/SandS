@@ -3,13 +3,13 @@
         <div ag-grid="gridOptions" class="ag-fresh displayDataTable"></div>
         <table class="mainTable table table-responsive table-sm">
             <tr>
-                <td ng-click="first();" class="first">First</td>
-                <td ng-click="back();" class="back">Back</td>
+                <td ng-click="first();"><span class="first">First</span></td>
+                <td ng-click="back();" ><span class="back">Back</span></td>
                   <td ng-repeat='pages in Painationarray track by $index' class="TD">
                     <span ng-click="goToPage(pages)" class="dataTable">  {{pages}} </span>
                   </td>
-                <td ng-click="next();" class="next">Next</td>
-                <td ng-click="last()" class="last">Last</td>
+                <td ng-click="next();" ><span class="next">Next </span></td>
+                <td ng-click="last()"><span  class="last">Last </span></td>
             </tr>
         </table>
         <div>

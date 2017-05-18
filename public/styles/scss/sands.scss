@@ -8,29 +8,43 @@ body {
 }
 
 .mainTable {
-    border: 1px #818080 solid;
-    margin: 20px auto auto;
-    background-color: #e2dddd;
+  // border: 1px #818080 solid;
+      margin: 20px auto 20px 0px;
+    /* background-color: #e2dddd; */
+    color: #f8f8f8;
+    font-size: 12px;
 }
 
 .first {
-    padding: 10px 5px 10px 10px;
-    border-right: 1px solid #818080;
-        border-top: 1px solid #818080!important;
+  border: 1px solid #6f6d6d;
+padding: 10px;
+border-radius: 10px;
+        // border-top: 1px solid #818080!important;
 }
 
 .back {
-    padding: 10px 5px;
-    border-right: 1px solid #818080;
-      border-top: 1px solid #818080!important;
+  border: 1px solid #6f6d6d;
+padding: 10px;
+border-radius: 10px;
+      // border-top: 1px solid #818080!important;
 }
 
 .dataTable {
-    padding: 10px;
-    border-right: 1px solid #818080;
-      border-top: 1px solid #818080!important;
+  border: 1px solid #6f6d6d;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #999b9c;
+      // border-top: 1px solid #818080!important;
 }
+.table>tbody>tr>td, .table>tbody>tr>th,
+ .table>tfoot>tr>td, .table>tfoot>tr>th,
+  .table>thead>tr>td, .table>thead>tr>th {
 
+    padding: 0px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #afb3b5!important;
+  }
 .back:hover,
 .dataTable:hover,
 .first:hover,
@@ -40,18 +54,20 @@ body {
 }
 
 .next {
-    padding: 10px 10px 10px 5px;
-    border-right: 1px solid #818080;
-      border-top: 1px solid #818080!important;
+  border: 1px solid #6f6d6d;
+padding: 10px;
+border-radius: 10px;
+      // border-top: 1px solid #818080!important;
 }
 
 .last {
-    padding: 10px;
-    border-right: 1px solid #818080;
-      border-top: 1px solid #818080!important;
+  border: 1px solid #6f6d6d;
+padding: 10px;
+border-radius: 10px;
+      // border-top: 1px solid #818080!important;
 }
 .TD{
-    border-top: 1px solid #818080!important;
+    // border-top: 1px solid #818080!important;
 }
 
 .email,

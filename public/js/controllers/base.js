@@ -5,6 +5,9 @@ angular.module('sands')
     .controller('base', ['$scope', 'User', '$location', function($scope, User, $location) {
         $scope.currentPage = 1;
         $scope.ItemsPerPage = 20;
+        function makeDouble(dbl) {
+            return (dbl < 10) ? '0' + dbl.toString() : dbl.toString();
+        }
 
         User.FetchTotal($scope.currentPage, $scope.ItemsPerPage)
             .success(function(data, status, headers, config) {
@@ -13,7 +16,8 @@ angular.module('sands')
                 $scope.pages = $scope.totalItems / $scope.ItemsPerPage;
                 $scope.Painationarray = [];
                 for (var i = 1; i <= $scope.pages; i++) {
-                    $scope.Painationarray.push(i);
+                    var  dbl=makeDouble(i)
+                    $scope.Painationarray.push(dbl);
                 }
             })
             .error(function(data) {
