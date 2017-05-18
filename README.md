@@ -12,4 +12,6 @@ Custom pagination implemented from scratch specifically to show buttons. Unable 
 
 Angular factory is used to store data temporarily, and for making API calls.
 
+Used Directive to display name, Email, Body as it has more functionallity and we can expand the module in future however we need.
+
 App is live at https://sands-test.herokuapp.com/

@@ -1,6 +1,6 @@
 /* line 1, ../scss/sands.scss */
 body {
-  background-color: #ecebeb;
+  background-color: #afb3b5;
 }
 
 /* line 5, ../scss/sands.scss */
@@ -20,21 +20,24 @@ body {
 .first {
   padding: 10px 5px 10px 10px;
   border-right: 1px solid #818080;
+  border-top: 1px solid #818080 !important;
 }
 
-/* line 21, ../scss/sands.scss */
+/* line 22, ../scss/sands.scss */
 .back {
   padding: 10px 5px;
   border-right: 1px solid #818080;
+  border-top: 1px solid #818080 !important;
 }
 
-/* line 26, ../scss/sands.scss */
+/* line 28, ../scss/sands.scss */
 .dataTable {
   padding: 10px;
   border-right: 1px solid #818080;
+  border-top: 1px solid #818080 !important;
 }
 
-/* line 31, ../scss/sands.scss */
+/* line 34, ../scss/sands.scss */
 .back:hover,
 .dataTable:hover,
 .first:hover,
@@ -43,19 +46,26 @@ body {
   cursor: pointer;
 }
 
-/* line 39, ../scss/sands.scss */
+/* line 42, ../scss/sands.scss */
 .next {
   padding: 10px 10px 10px 5px;
   border-right: 1px solid #818080;
+  border-top: 1px solid #818080 !important;
 }
 
-/* line 44, ../scss/sands.scss */
+/* line 48, ../scss/sands.scss */
 .last {
   padding: 10px;
   border-right: 1px solid #818080;
+  border-top: 1px solid #818080 !important;
 }
 
-/* line 49, ../scss/sands.scss */
+/* line 53, ../scss/sands.scss */
+.TD {
+  border-top: 1px solid #818080 !important;
+}
+
+/* line 57, ../scss/sands.scss */
 .email,
 .name {
   height: 100px;
@@ -68,7 +78,7 @@ body {
   box-shadow: 4px 4px 10px #626e7b;
 }
 
-/* line 61, ../scss/sands.scss */
+/* line 69, ../scss/sands.scss */
 .body {
   margin-top: 20px;
   /* height: 100px; */
@@ -84,7 +94,7 @@ body {
   box-shadow: 4px 4px 10px #626e7b;
 }
 
-/* line 76, ../scss/sands.scss */
+/* line 84, ../scss/sands.scss */
 .customwrapper {
   margin-top: 25vh;
 }

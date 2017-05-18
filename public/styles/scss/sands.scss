@@ -1,5 +1,5 @@
 body {
-    background-color: #ecebeb;
+    background-color: #afb3b5;
 }
 
 .displayDataTable {
@@ -16,16 +16,19 @@ body {
 .first {
     padding: 10px 5px 10px 10px;
     border-right: 1px solid #818080;
+        border-top: 1px solid #818080!important;
 }
 
 .back {
     padding: 10px 5px;
     border-right: 1px solid #818080;
+      border-top: 1px solid #818080!important;
 }
 
 .dataTable {
     padding: 10px;
     border-right: 1px solid #818080;
+      border-top: 1px solid #818080!important;
 }
 
 .back:hover,
@@ -39,11 +42,16 @@ body {
 .next {
     padding: 10px 10px 10px 5px;
     border-right: 1px solid #818080;
+      border-top: 1px solid #818080!important;
 }
 
 .last {
     padding: 10px;
     border-right: 1px solid #818080;
+      border-top: 1px solid #818080!important;
+}
+.TD{
+    border-top: 1px solid #818080!important;
 }
 
 .email,
